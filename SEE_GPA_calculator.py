@@ -83,20 +83,20 @@ print("Your total GPA is:", total)
 print()
 print()
 if(total>3.6):
-  print(you got A+)
-elif(total>3.2 and total=3.6):
+  print("you got A+")
+elif(total>3.2 and total==3.6):
   print("you got A")
-elif(total>2.8 and total=3.2):
+elif(total>2.8 and total==3.2):
   print("you got B+")
-elif(total>2.4 and total=2.8):
+elif(total>2.4 and total==2.8):
   print("you got B")
-elif(total>2 and total=2.4):
+elif(total>2 and total==2.4):
   print("you got C+")
-elif(total>1.6 and total=2):
+elif(total>1.6 and total==2):
   print("you got D+")
 elif(total<1.6):
   print("you got NG")
-  else():
-  print("invalid input")
+else:
+	print("invalid input")
 
 print("beautiful girls can contact me. instagram: dipeshbhattarai01 ")
